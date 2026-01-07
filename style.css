@@ -325,7 +325,6 @@ body::before {
 }
 @media (max-width: 480px) {
     #about {
-        padding-top: 100px;
         scroll-margin-top: 110px;
     }
 }
@@ -1015,6 +1014,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
