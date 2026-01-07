@@ -322,7 +322,7 @@ body::before {
 }
 @media (max-width: 480px) {
     .AboutSection{
-        margin-top: 60px;
+        margin-top: 120px;
     }
 }
 #about{
@@ -1033,6 +1033,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
