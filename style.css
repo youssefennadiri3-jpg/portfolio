@@ -687,3 +687,302 @@ a{
 .social-icons svg:hover::before{
     width: 100%;
 }
+
+/*==========================================Media Queries for Mobile Responsiveness==========================================*/
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .HomeSection {
+        padding: 10% 5%;
+        min-height: 600px;
+    }
+
+    .HomeSection h1 {
+        font-size: 36px;
+        max-width: 100%;
+        top: 60px;
+    }
+
+    .HomeSection h3 {
+        font-size: 24px;
+        top: 80px;
+    }
+
+    .HomeSection p {
+        font-size: 14px;
+        max-width: 100%;
+        top: 100px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+        top: 120px;
+    }
+
+    .btn-box a {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .HomeSection .social-icons {
+        top: 160px;
+        width: 150px;
+    }
+
+    .AboutSection {
+        width: 95vw;
+        padding: 30px 20px;
+        margin: 20px auto;
+    }
+
+    .AboutSection h1 {
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    .AboutSection p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .AboutSection .btn-box {
+        min-width: 100%;
+        top: 20px;
+    }
+
+    .ServicesSection {
+        padding: 10vh 5% 50px;
+    }
+
+    .ServicesSection h1 {
+        font-size: 36px;
+        margin-bottom: 10vh;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        max-width: 100%;
+        min-width: 250px;
+        padding: 20px;
+    }
+
+    .ProjectsSection {
+        padding: 100px 5% 50px;
+    }
+
+    .ProjectsSection h1 {
+        font-size: 36px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        max-width: 100%;
+        min-width: 250px;
+        height: 350px;
+    }
+
+    .ContactSection {
+        padding: 50px 5% 50px;
+        max-width: 100%;
+    }
+
+    .ContactSection h1 {
+        font-size: 40px;
+        max-width: 100%;
+    }
+
+    .ContactSection p {
+        font-size: 18px;
+    }
+
+    .contact-form .btn-box {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact-form .btn-box button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-info h3 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        width: 150px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .navigation__button {
+        height: 60px;
+        width: 60px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navigation__background {
+        height: 60px;
+        width: 60px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navigation__link {
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .HomeSection {
+        padding: 15% 5%;
+        min-height: 500px;
+    }
+
+    .HomeSection h1 {
+        font-size: 28px;
+        top: 40px;
+    }
+
+    .HomeSection h3 {
+        font-size: 20px;
+        top: 60px;
+    }
+
+    .HomeSection p {
+        font-size: 14px;
+        top: 80px;
+    }
+
+    .btn-box {
+        top: 100px;
+    }
+
+    .btn-box a {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .HomeSection .social-icons {
+        top: 140px;
+        width: 120px;
+    }
+
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .AboutSection {
+        width: 95vw;
+        padding: 20px 15px;
+        margin: 10px auto;
+    }
+
+    .AboutSection h1 {
+        font-size: 28px;
+    }
+
+    .AboutSection p {
+        font-size: 14px;
+    }
+
+    .ServicesSection h1 {
+        font-size: 28px;
+        margin-bottom: 5vh;
+    }
+
+    .service-card {
+        min-width: 200px;
+        padding: 15px;
+        min-height: 200px;
+    }
+
+    .service-card h2 {
+        font-size: 18px;
+    }
+
+    .service-card p {
+        font-size: 14px;
+    }
+
+    .ProjectsSection h1 {
+        font-size: 28px;
+    }
+
+    .project-card {
+        height: 300px;
+    }
+
+    .project-info {
+        padding: 15px;
+    }
+
+    .project-info h3 {
+        font-size: 16px;
+    }
+
+    .project-info p {
+        font-size: 14px;
+    }
+
+    .btn-round {
+        width: 150px;
+        height: 12px;
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+
+    .ContactSection h1 {
+        font-size: 32px;
+    }
+
+    .ContactSection p {
+        font-size: 16px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .contact-info h3 {
+        font-size: 24px;
+    }
+
+    .social-icons {
+        width: 120px;
+    }
+}
