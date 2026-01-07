@@ -13,6 +13,11 @@ body{
     background-position: center;
     background-position-y: 20%;
 }
+@supports (-webkit-touch-callout: none) {
+    body {
+        background-attachment: scroll;
+    }
+}
 /*==========================================menu==========================================*/
 .navigation__checkbox {
     display: none
@@ -990,6 +995,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
