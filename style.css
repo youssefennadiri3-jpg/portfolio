@@ -18,7 +18,7 @@ body {
 /* Safari fix */
 @supports (-webkit-touch-callout: none) {
     body {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 /*==========================================menu==========================================*/
@@ -998,5 +998,6 @@ a{
         width: 120px;
     }
 }
+
 
 
