@@ -13,13 +13,6 @@ body {
     background-size: cover;
     background-position-y: 20%;
 }
-
-/* Safari fix */
-@supports (-webkit-touch-callout: none) {
-    body {
-        background-attachment: fixed;
-    }
-}
 /*==========================================menu==========================================*/
 .navigation__checkbox {
     display: none
@@ -997,6 +990,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
