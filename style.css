@@ -227,6 +227,11 @@ body::before {
     padding: 8%;
     box-sizing: border-box;
 }
+@media (max-width: 480px) {
+    .HomeSection{
+        margin-bottom: 90px;
+    }
+}
 .HomeSection h1 {
     font-size: 52px;
     color: #f5f0e6;
@@ -319,11 +324,6 @@ body::before {
     border-radius: 30px;
     margin: auto;
     border: 3px solid #ffffff46;
-}
-@media (max-width: 480px) {
-    .AboutSection{
-        margin-top: 120px;
-    }
 }
 #about{
     scroll-margin-top: 90px;
@@ -1033,6 +1033,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
