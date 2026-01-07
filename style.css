@@ -6,17 +6,23 @@ html{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-image: url(myportfoliox.jpg);
+body {
+    background-image: url("myportfoliox.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-position-y: 20%;
+    background-position: center 20%;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
-@supports (-webkit-touch-callout: none) {
-    body {
-        background-attachment: scroll;
-    }
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("myportfoliox.jpg");
+    background-size: cover;
+    background-position: center 20%;
+    z-index: -1;
 }
 /*==========================================menu==========================================*/
 .navigation__checkbox {
@@ -995,6 +1001,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
