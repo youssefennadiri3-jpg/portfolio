@@ -320,13 +320,14 @@ body::before {
     margin: auto;
     border: 3px solid #ffffff46;
 }
-@media (max-width: 480px) {
-    .AboutSection{
-        margin-top: 40px;
-    }
-}
 #about{
     scroll-margin-top: 90px;
+}
+@media (max-width: 480px) {
+    #about {
+        padding-top: 100px;
+        scroll-margin-top: 110px;
+    }
 }
 .AboutSection h1 {
     font-size: 48px;
@@ -1014,6 +1015,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
