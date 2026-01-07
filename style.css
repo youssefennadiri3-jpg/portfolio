@@ -10,8 +10,7 @@ body {
     background-image: url(myportfoliox.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachement: local;
-    background-size: cover;
+    background-attachement: fixed;
     background-position-y: 20%;
 }
 /*==========================================menu==========================================*/
@@ -991,6 +990,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
