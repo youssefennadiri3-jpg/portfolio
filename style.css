@@ -838,6 +838,10 @@ a{
 
 /* Mobile phones */
 @media (max-width: 480px) {
+    body {
+        background-attachment: scroll;
+    }
+
     .navigation__button {
         height: 60px;
         width: 60px;
