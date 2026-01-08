@@ -1062,6 +1062,45 @@ a{
         width: 120px;
     }
 }
+@media (max-width: 480px) {
+
+    .project-card {
+        min-height: 380px;
+        height: auto;
+    }
+
+    .card-front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* الصورة */
+    .card-front img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    /* النص */
+    .project-info {
+        margin-top: 10px;
+    }
+
+    /* ⭐ الحل الحقيقي: الزر */
+    .btn-round {
+        margin-top: auto;      /* يدفعه للأسفل */
+        margin-bottom: auto;   /* يرفعه للأعلى */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 170px;
+        height: 40px;
+    }
+}
 
 
 
