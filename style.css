@@ -440,7 +440,23 @@ body::before {
         height: auto;
         min-height: 350px;
     }
+@media (max-width: 480px) {
+    .project-card {
+        position: relative;
+    }
 
+    .card-front .btn-round {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 40px;
+    }
+}
     .card-front,
     .card-back {
         height: 100%;
@@ -1033,6 +1049,7 @@ a{
         width: 120px;
     }
 }
+
 
 
 
