@@ -1034,7 +1034,7 @@ a{
     }
 
     .btn-round {
-        width: 150px;
+        width: 100px;
         height: 12px;
         padding: 10px 8px;
         font-size: 10px;
@@ -1101,6 +1101,7 @@ a{
         height: 40px;
     }
 }
+
 
 
 
