@@ -750,7 +750,7 @@ a{
 /*==========================================Media Queries for Mobile Responsiveness==========================================*/
 
 /* Tablet and smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .header {
         padding: 20px 5%;
     }
@@ -1049,27 +1049,3 @@ a{
         width: 120px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
