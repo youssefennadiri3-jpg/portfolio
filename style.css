@@ -383,6 +383,8 @@ body::before {
     border: 3px solid #ffffff46;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    display: grid;
+    gap: 20px;
 }
 
 .service-card:hover {
@@ -390,8 +392,9 @@ body::before {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-.service-card.icon {
-    margin-bottom: 20px;
+.service-card i {
+    font-size: 40px;
+    color: #3b6040;
 }
 
 .service-card h2 {
